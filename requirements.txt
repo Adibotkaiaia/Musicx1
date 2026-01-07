@@ -32,8 +32,8 @@ youtube-search-python
 py-yt-search
 yt-dlp
 # ===========================================
-# ©️ 2025 Nand Yaduwanshi , aka @NoxxOP
-# 🔗 GitHub : https://github.com/NoxxOP/ShrutiMusic
-# 📢 Telegram Channel : https://t.me/ShrutiBots
+# ©️ 2026 SAKSHAM GUPTA, ADI @I_ADI_II
+# 📢 Telegram Channel : https://t.me/Il_vip_support_lI
 # ===========================================
+
 
