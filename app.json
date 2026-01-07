@@ -1,7 +1,7 @@
 {
-  "name": "Shruti Music",
+  "name": "Vip Music",
   "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-  "logo": "https://files.catbox.moe/v7hio8.jpg",
+  "logo": "https://files.catbox.moe/17e6zb.jpg",
   "keywords": [
     "python3",
     "telegram",
@@ -14,12 +14,12 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "29448785",
+      "value": "39824109",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "599574f6aff0a09ebb76305b58e7e9c2",
+      "value": "e3db444da6b7c85188beebec169c62cb",
       "required": true
     },
     "BOT_TOKEN": {
@@ -34,18 +34,14 @@
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
-      "value": "7574330905",
+      "value": "8400280060",
       "required": true
     },
     "BOT_USERNAME": {
       "description": "The username of your bot (without @)",
-      "value": "ShrutixMusicBot",
+      "value": "VIP_MUSIC_X1_BOT",
       "required": true
-    },
-    "UPSTREAM_REPO": {
-      "description": "URL of your GitHub repository",
-      "value": "https://github.com/NoxxOP/ShrutiMusic",
-      "required": false
+    
     },
     "STRING_SESSION": {
       "description": "A Pyrogram v2 String Session from Replit.",
@@ -69,37 +65,33 @@
     },
     "LOG_GROUP_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Do not ever try to put channel ID here.",
-      "value": "",
+      "value": "-1003550365298",
       "required": true
     },
     "SUPPORT_GROUP": {
       "description": "Your support group link",
-      "value": "https://t.me/ShrutiBotsupport",
+      "value": "https://t.me/VIP_SUPPORT_II",
       "required": false
     },
     "SUPPORT_CHANNEL": {
       "description": "Your support channel link",
-      "value": "https://t.me/ShrutiBots",
+      "value": "https://t.me/Il_vip_support_lI",
       "required": false
     },
     "INSTAGRAM": {
       "description": "Your Instagram profile link or Any Link",
-      "value": "https://instagram.com/yaduwanshi_nand",
+      "value":  "",
       "required": false
     },
     "YOUTUBE": {
       "description": "Your YouTube channel link or Any Link",
-      "value": "https://youtube.com/@NandEditz",
+      "value": "",
       "required": false
-    },
-    "GITHUB": {
-      "description": "Your GitHub profile link or Any Link",
-      "value": "https://github.com/NoxxOP",
-      "required": false
+    
     },
     "DONATE": {
       "description": "Link where people can support/donate or Any Link",
-      "value": "https://t.me/ShrutiBots/91",
+      "value": "https://t.me/VIP_SUPPORT_II",
       "required": false
     },
     "START_IMG_URL": {
@@ -120,9 +112,7 @@
     {
       "url": "heroku/nodejs"
     },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
+    
   ],
   "stack": "container"
 }
