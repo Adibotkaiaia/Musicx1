@@ -26,7 +26,7 @@ SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/VIP_SUPPORT_II")
 DONATE = os.getenv("DONATE", "https://t.me/VIP_SUPPORT_II")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
-DURATION_LIMIT_MIN = int(os.getenv("DURATION_LIMIT", 300))
+DURATION_LIMIT_MIN = int(os.getenv("DURATION_LIMIT", 600))
 PLAYLIST_FETCH_LIMIT = int(os.getenv("PLAYLIST_FETCH_LIMIT", 25))
 
 TG_AUDIO_FILESIZE_LIMIT = int(os.getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
@@ -45,17 +45,17 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 START_STICKER_ENABLED = bool(os.getenv("START_STICKER_ENABLED", "True").lower() in ["true", "1", "yes"])
 
 START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/u2oc8f.jpg")
-PING_IMG_URL = "https://files.catbox.moe/u2oc8f.jpg"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/u2oc8f.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/u2oc8f.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/u2oc8f.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/u2oc8f.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/u2oc8f.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/u2oc8f.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/u2oc8f.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/u2oc8f.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/u2oc8f.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/u2oc8f.jpg
+PING_IMG_URL = "https://files.catbox.moe/ucyk3n.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/nnqwbf.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/1ha8i5.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ucyk3n.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/1ha8i5.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/ucyk3n.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/1ha8i5.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/1ha8i5.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/nnqwbf.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/1ha8i5.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/ucyk3n.jpg"
 
 BANNED_USERS = filters.user()
 adminlist = {}
