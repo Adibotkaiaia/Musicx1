@@ -52,10 +52,8 @@ def private_panel(_):
                 text=_["E_X_1"],
                 callback_data="fork_repo"
             ),
-            # ❌ user_id hata diya
-            # ✅ owner profile URL use kiya
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text="👤 Owner",
                 url=f"https://t.me/{config.OWNER_USERNAME}"
             ),
         ],
