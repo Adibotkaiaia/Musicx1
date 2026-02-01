@@ -36,7 +36,7 @@ from ShrutiMusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
-@app.on_message(filters.command("auth") & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command("auth") & filters.group)
 @AdminActual
 async def auth(client, message: Message, _):
     if not message.reply_to_message:
